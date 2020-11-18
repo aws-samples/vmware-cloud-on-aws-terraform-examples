@@ -4,12 +4,13 @@ This repository contains examples to help you get started with creating [VMware 
 
 ## Security
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+See [CONTRIBUTING][contributing] for more information.
 
 ## License
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
 
+[contributing]: https://github.com/aws-samples/vmware-cloud-on-aws-terraform-examples/blob/master/CONTRIBUTING.md
 [hashicorp]: https://www.hashicorp.com/
 [sddc]: https://docs.vmware.com/en/VMware-Cloud-on-AWS/services/com.vmware.vmc-aws-operations/GUID-A0F15ABA-C2DF-46CD-B883-A9FABD892B75.html
 [terraform]: https://www.terraform.io/
