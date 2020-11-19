@@ -1,0 +1,11 @@
+{
+  "name": "VMware Cloud on AWS Terraform examples",
+  "author": "Amazon Web Services, Inc.",
+  "description": "Example HashiCorp Terraform templates for VMware Cloud on AWS",
+  "lang": "en-US",
+  "dir": "ltr",
+  "start_url": "https://aws-samples.github.io/vmware-cloud-on-aws-terraform-examples",
+  "display": "browser",
+  "theme_color": "#232f3e",
+  "background_color": "#ffffff"
+}
