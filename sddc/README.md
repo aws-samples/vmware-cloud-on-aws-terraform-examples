@@ -8,7 +8,7 @@ This example template will deploy a new [VMware Cloud on AWS][vmconaws] [softwar
 
 1. [Terraform][tf_download]
 1. [VMware Cloud on AWS account][vmconaws] and [console access][vmconaws_console]
-1. [AWS account][aws_account] that will be linked with the VMware Cloud on AWS account via [AWS PrivateLink][privatelink]
+1. [AWS account][aws_account] that is already linked with the VMware Cloud on AWS account
     1. [Amazon Virtual Private Cloud (VPC) subnet(s)][aws_subnet]
         NOTE: The availability zone(s) (AZ(s)) of the subnet(s) determines the AZ(s) where the SDDC will be deployed.
 1. [Configure the input variables to your specification][tf_vars]
@@ -39,7 +39,6 @@ This example template will deploy a new [VMware Cloud on AWS][vmconaws] [softwar
 [aws_account]: https://portal.aws.amazon.com/billing/signup#/start
 [aws_subnet]: https://docs.aws.amazon.com/vpc/latest/userguide/working-with-vpcs.html#AddaSubnet
 [hashicorp]: https://www.hashicorp.com/
-[privatelink]: https://aws.amazon.com/privatelink/
 [sddc]: https://docs.vmware.com/en/VMware-Cloud-on-AWS/services/com.vmware.vmc-aws-operations/GUID-A0F15ABA-C2DF-46CD-B883-A9FABD892B75.html
 [terraform]: https://www.terraform.io/
 [tf_apply]: https://www.terraform.io/docs/commands/apply.html
