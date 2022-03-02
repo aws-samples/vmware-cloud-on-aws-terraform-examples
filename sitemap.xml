@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://aws-samples.github.io/vmware-cloud-on-aws-terraform-examples/</loc>
-         <lastmod>2021-12-01</lastmod>
+         <lastmod>2022-03-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aws-samples.github.io/vmware-cloud-on-aws-terraform-examples/about/code_of_conduct/</loc>
-         <lastmod>2021-12-01</lastmod>
+         <lastmod>2022-03-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aws-samples.github.io/vmware-cloud-on-aws-terraform-examples/about/contributing/</loc>
-         <lastmod>2021-12-01</lastmod>
+         <lastmod>2022-03-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aws-samples.github.io/vmware-cloud-on-aws-terraform-examples/about/license/</loc>
-         <lastmod>2021-12-01</lastmod>
+         <lastmod>2022-03-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://aws-samples.github.io/vmware-cloud-on-aws-terraform-examples/sddc/</loc>
-         <lastmod>2021-12-01</lastmod>
+         <lastmod>2022-03-02</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
