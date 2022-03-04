@@ -142,7 +142,7 @@ variable min_hosts {
   default     = 3
 
   validation {
-    condition     = var.min_hosts >= 1 && var.min_hosts <= 16 && floor(var.min_hosts) == var.min_hosts
+    condition     = var.min_hosts >= 3 && var.min_hosts <= 16 && floor(var.min_hosts) == var.min_hosts
     error_message = "Accepted values: 3-16."
   }
 }
@@ -153,7 +153,7 @@ variable max_hosts {
   default     = 16
 
   validation {
-    condition     = var.max_hosts >= 1 && var.max_hosts <= 16 && floor(var.max_hosts) == var.max_hosts
+    condition     = var.max_hosts >= 3 && var.max_hosts <= 16 && floor(var.max_hosts) == var.max_hosts
     error_message = "Accepted values: 3-16."
   }
 }
