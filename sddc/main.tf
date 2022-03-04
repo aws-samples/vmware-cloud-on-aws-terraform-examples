@@ -21,7 +21,7 @@ terraform {
 # ---------------------------------------------------------------------------------------------------------------------
 
 # https://registry.terraform.io/providers/vmware/vmc/latest/docs
-provider vmc {
+provider "vmc" {
   refresh_token = var.api_token
   org_id        = var.org_id
 }
@@ -41,11 +41,11 @@ locals {
 # Data sources
 # ---------------------------------------------------------------------------------------------------------------------
 
-data vmc_connected_accounts account {
+data "vmc_connected_accounts" "account" {
   account_number = var.aws_account_number
 }
 
-data vmc_customer_subnets subnets {
+data "vmc_customer_subnets" "subnets" {
   connected_account_id = data.vmc_connected_accounts.account.id
   region               = var.sddc_region
 }
@@ -54,7 +54,7 @@ data vmc_customer_subnets subnets {
 # Create the VMware Cloud on AWS SDDC
 # ---------------------------------------------------------------------------------------------------------------------
 
-resource vmc_sddc sddc {
+resource "vmc_sddc" "sddc" {
   provider_type = "AWS"
   region        = var.sddc_region
 
